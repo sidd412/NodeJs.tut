@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+
+    <title>profile page</title>
+</head>
+<body>
+    <h5>this is profile page which is a dynamic page because it take data other place</h5>
+       <h1>welcome <%=  user.name %></h1>
+<h3><%=  user.college %></h3>
+<h3><%=  user.city %></h3>
+<ul>
+    <% user.skills.forEach((item)=>{ %>
+<li><%= item %></li>
+   <% }) %>
+</ul>
+</body>
+</html>

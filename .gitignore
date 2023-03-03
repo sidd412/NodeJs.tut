@@ -1,0 +1,2 @@
+****the modules you dont't want to push over the repositry ,mention here in .gitignore file (as node module are mentioned below ) and all the mentioned modules would not be pushed over the repositry but as the will mention in package .json son on running npm install command all the module will be installed.
+/node_modules
